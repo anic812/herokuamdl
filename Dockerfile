@@ -1,6 +1,6 @@
 # Use an official Python runtime as the base image.
 # https://hub.docker.com/_/python
-FROM python:3.10-slim
+FROM python:3.12.8-slim
 
 ENV DEBIAN_FRONTEND=noninteractive
 # Install dependencies

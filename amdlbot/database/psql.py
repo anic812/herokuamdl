@@ -34,7 +34,7 @@ class DataBaseHandle:
             self._connection_users.append(1)
         else:
             LOGGER(__name__).debug("Established Connection")
-            self._conn = psycopg2.connect(self._dburl)
+            self._conn = psycopg2.connect(self._dburl, sslmode='require')
             self._connection_users.append(1)
             self._active_connections.append(self._conn)
 

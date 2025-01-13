@@ -23,7 +23,7 @@ class Config:
         self.mp4decrypt_path = "mp4decrypt"
         self.ffmpeg_path = "ffmpeg"
         self.mp4box_path = "MP4Box"
-        self.download_mode = DownloadMode.NM3U8DLRE
+        self.download_mode = DownloadMode.YTDLP
         self.remux_mode = RemuxMode.FFMPEG
         self.cover_format = CoverFormat.JPG
         self.template_folder_album = "{album_artist}/{album}"

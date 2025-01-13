@@ -6,9 +6,9 @@
         "music",
         "uploader"
     ],
-    "website": "https://github.com/Apple-Dl/Apple-Dl-Bot",
-    "repository": "https://github.com/Apple-Dl/Apple-Dl-Bot",
-    "success_url": "https://github.com/Apple-Dl/Apple-Dl-Bot",
+    "website": "https://github.com/anic812/herokuamdl/",
+    "repository": "https://github.com/anic812/herokuamdl/",
+    "success_url": "https://github.com/anic812/herokuamdl/",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org",

@@ -21,7 +21,6 @@ RUN wget https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.3.0-beta/N_
 
 RUN tar -xf /tmp/N_m3u8DL-RE.tar.gz -C /tmp && \
     mv /tmp/N_m3u8DL-RE/N_m3u8DL-RE /usr/local/bin/ && \
-    chmod +x /usr/local/bin/N_m3u8DL-RE && \
     rm -rf /tmp/N_m3u8DL-RE*
 
 # Set the working directory in the container.

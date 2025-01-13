@@ -1,0 +1,55 @@
+{
+    "name": "Apple-Dl Bot",
+    "description": "Telegram bot to download Apple-Dl",
+    "keywords": [
+        "telegram",
+        "music",
+        "uploader"
+    ],
+    "website": "https://github.com/Apple-Dl/Apple-Dl-Bot",
+    "repository": "https://github.com/Apple-Dl/Apple-Dl-Bot",
+    "success_url": "https://github.com/Apple-Dl/Apple-Dl-Bot",
+    "env": {
+        "API_ID": {
+            "description": "Get this value from my.telegram.org",
+            "value": "23028247",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org",
+            "value": "659c5f1124a81ad789a6ea021da73f4d",
+            "required": true
+        },
+        "DATABASE_URL": {
+            "description": "PostgreSQL database URL",
+            "value": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Get this value from @BotFather",
+            "value": "7494505551:AAE731rX01jl61SROQuynPuwwXTEe1pMBjA",
+            "required": true
+        },
+        "OWNER_USERID": {
+            "description": "User ID of the bot owner",
+            "value": "[6383913878]",
+            "required": true
+        },
+        "SUDO_USERID": {
+            "description": "User IDs of sudo users",
+            "value": "[6383913878]",
+            "required": false
+        }
+    },
+    "stack": "container",
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}

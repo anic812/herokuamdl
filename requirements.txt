@@ -1,0 +1,17 @@
+pyrate-limiter==2.10.0
+#Pyrogram>=2.0.59
+kurigram
+TgCrypto-pyrofork
+python-dotenv 
+speedtest-cli
+telegraph[aio]
+cachetools 
+aiofiles
+psutil
+httpx
+motor
+bs4
+#uvloop
+pillow
+gamdl
+psycopg2-binary

@@ -23,7 +23,7 @@
         "DATABASE_URL": {
             "description": "PostgreSQL database URL",
             "value": "",
-            "required": true
+            "required": false
         },
         "BOT_TOKEN": {
             "description": "Get this value from @BotFather",

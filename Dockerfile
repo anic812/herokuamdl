@@ -20,7 +20,8 @@ RUN wget https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.3.0-beta/N_
 # Extract and install N_m3u8DL-RE
 
 RUN tar -xf /tmp/N_m3u8DL-RE.tar.gz -C /tmp && \
-    mv /tmp/N_m3u8DL-RE /usr/local/bin/ && \
+    ls -la /tmp && \
+    mv /tmp/N_m3u8DL-RE_v0.3.0-beta_linux-x64_20241203/N_m3u8DL-RE /usr/local/bin/ && \
     chmod +x /usr/local/bin/N_m3u8DL-RE && \
     rm -rf /tmp/N_m3u8DL-RE*
 
